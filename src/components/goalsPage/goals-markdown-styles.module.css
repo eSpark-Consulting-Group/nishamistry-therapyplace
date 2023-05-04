@@ -1,0 +1,42 @@
+.markdown {
+  @apply leading-relaxed;
+}
+
+.markdown a {
+  @apply leading-relaxed underline text-navy;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-3 break-words font-LGCB text-navy lg:font-normal lg:leading-snug;
+}
+
+.markdown h2 {
+  @apply mt-12 mb-4 text-3xl leading-snug font-LGCB text-navy;
+}
+
+.markdown h3 {
+  @apply mt-8 mb-4 text-2xl leading-snug font-LGCB text-navy;
+}
+
+.markdown img {
+  @apply w-[400px];
+}
+
+.markdown ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.markdown li {
+  padding-left: 1.2em;
+  text-indent: -1em;
+}
+
+.markdown li:before {
+  content: '➜';
+  padding-right: 5px;
+}

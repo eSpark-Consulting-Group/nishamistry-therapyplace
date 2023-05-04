@@ -1,0 +1,87 @@
+.list {
+  @apply my-5
+    mx-auto
+    flex
+    w-[70%]
+    items-center
+    justify-center
+    gap-5
+    xl:w-[60rem]
+    xl:justify-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  @apply flex 
+        h-[430px]
+        w-[350px]
+        flex-col
+        items-center
+        justify-around
+        space-y-3
+        p-3
+        text-center
+        font-LGC
+        md:w-[300px];
+}
+
+.card > .wrapper {
+  @apply flex h-[70%] w-[350px] flex-col items-center space-y-1 border-x-[20px] border-t-[5px] bg-snow py-3 md:w-[300px];
+  flex: 1;
+}
+
+.card:nth-child(1) {
+  @apply bg-chocolate;
+}
+.card:nth-child(1) .wrapper {
+  @apply border-chocolate bg-snow;
+}
+
+.card:nth-child(2) {
+  @apply bg-mint;
+}
+.card:nth-child(2) .wrapper {
+  @apply border-mint bg-snow;
+}
+
+.card:nth-child(3) {
+  @apply bg-army;
+}
+.card:nth-child(3) .wrapper {
+  @apply border-army bg-snow;
+}
+
+.card:nth-child(4) {
+  @apply bg-mint;
+}
+.card:nth-child(4) .wrapper {
+  @apply border-mint bg-snow;
+}
+
+.card:nth-child(5) {
+  @apply bg-army;
+}
+.card:nth-child(5) .wrapper {
+  @apply border-army bg-snow;
+}
+
+.card:nth-child(6) {
+  @apply bg-chocolate;
+}
+.card:nth-child(6) .wrapper {
+  @apply border-chocolate bg-snow;
+}
+
+.card:nth-child(7) {
+  @apply bg-army;
+}
+.card:nth-child(7) .wrapper {
+  @apply border-army bg-snow;
+}
+
+.card:nth-child(8) {
+  @apply bg-chocolate;
+}
+.card:nth-child(8) .wrapper {
+  @apply border-chocolate bg-snow;
+}

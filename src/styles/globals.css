@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type='text']:focus,
+  [type='email']:focus,
+  [type='url']:focus,
+  [type='password']:focus,
+  [type='number']:focus,
+  [type='date']:focus,
+  [type='datetime-local']:focus,
+  [type='month']:focus,
+  [type='search']:focus,
+  [type='tel']:focus,
+  [type='time']:focus,
+  [type='week']:focus,
+  [multiple]:focus,
+  textarea:focus,
+  select:focus {
+    --tw-ring-color: #23254e;
+    border-color: var(--tw-ring-color);
+  }
+  @font-face {
+    font-family: 'Louis George Café';
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Louis-George-Cafe.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Louis George Café';
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Louis-George-Cafe.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Louis George Café Bold';
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Louis-George-Cafe-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Louis George Café Bold';
+    font-display: swap;
+    font-style: bold;
+    src: url('/fonts/Louis-George-Cafe-Bold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Louis George Café Light';
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Louis-George-Cafe-Light.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Louis George Café Light';
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Louis-George-Cafe-Light.woff2') format('woff2');
+  }
+}
+
+/*
+table {
+  position: relative;
+  margin: 32px auto;
+  width: calc(100% - 100px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid #e3e3e3;
+}
+table tbody tr {
+  transition: background 0.3s;
+  will-change: background;
+}
+table tbody tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.04);
+}
+table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+table tbody tr:last-child {
+  border: none;
+}
+table th, table td {
+  padding: 16px;
+  box-sizing: border-box;
+  transition: background 0.3s;
+  will-change: background;
+}
+
+@media (max-width: 768px) {
+  table {
+    box-shadow: none;
+    background: none;
+    margin: 0;
+    width: 100%;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    display: block;
+    margin: 16px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    border: none;
+  }
+  table tbody tr:hover, table tbody tr:nth-child(odd) {
+    background: #fff;
+  }
+  table tbody tr th, table tbody tr td {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: right;
+  }
+  table tbody tr th:before, table tbody tr td:before {
+    content: attr(data-name);
+    float: left;
+    color: #757575;
+  }
+  table tbody tr th:hover, table tbody tr td:hover {
+    background: rgba(0, 0, 0, 0.03);
+  }
+  table tbody tr th:last-child, table tbody tr td:last-child {
+    border-bottom: none;
+  }
+} */

@@ -1,0 +1,90 @@
+import ProfileLayout from '../../../components/shared/layout/ProfileLayout'
+import { useRouter } from 'next/router'
+import { useUser } from '../../../context/user'
+import { useQuery } from 'react-query'
+import { getGoal } from '../../../utils/supabaseClient'
+import { format } from 'date-fns'
+
+const Goals = () => {
+  const { user } = useUser()
+  const userId = user.id
+  const router = useRouter()
+  const {
+    data: goalsData,
+    isLoading,
+    isError,
+    isFetching,
+    error,
+  } = useQuery('goalsData', () => getGoal(userId))
+
+  if (isLoading) return <div>Loading...</div>
+  if (isFetching) return <div>Loading...</div>
+  if (isError) console.log('error fetching goals from database :>> ', error)
+
+  return (
+    <section className="ml-12 md:ml-0">
+      <h3 className="mb-3 text-4xl font-LGCB">Goals</h3>
+      <div>
+        {goalsData && goalsData.data && (
+          <div className="overflow-x-auto">
+            <table className="w-[70%] table-auto">
+              <thead className="text-sm uppercase bg-snow font-LGCB text-navy">
+                <tr>
+                  <th className="p-2">
+                    <div className="text-left font-LGCB">Title</div>
+                  </th>
+                  <th className="p-2">
+                    <div className="text-left font-LGCB">Date</div>
+                  </th>
+                  <th className="p-2">
+                    <div className="text-center font-LGCB">Download</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-mint text-navy">
+                {goalsData.data.map((g) => {
+                  return (
+                    <tr key={g.id}>
+                      <td className="p-2">
+                        <div>{g.title}</div>
+                      </td>
+                      <td className="p-2">
+                        <div className="text-sm text-left">
+                          {format(new Date(g.created_at), 'PP')}
+                        </div>
+                      </td>
+                      <td className="p-2">
+                        <a target="_blank" href={g.url}>
+                          <div className="flex justify-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-5 h-5"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9zm3.75 11.625a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+                              />
+                            </svg>
+                          </div>
+                        </a>
+                      </td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}
+
+Goals.PageLayout = ProfileLayout
+
+export default Goals

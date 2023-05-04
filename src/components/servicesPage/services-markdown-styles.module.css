@@ -1,0 +1,7 @@
+.markdown {
+  @apply leading-[1.8] tracking-wide;
+}
+
+.markdown p strong {
+  @apply font-LGCB;
+}
