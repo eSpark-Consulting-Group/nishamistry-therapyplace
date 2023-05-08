@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 // import Header from "./Header";
-import SideBar from "./SideBar/SideBar";
+// import SideBar from "./SideBar/SideBar";
 
 interface ILayoutProps {
   children: React.ReactNode;
@@ -25,10 +25,10 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => {
         handleDrawerOpen={handleDrawerOpen}
         handleDrawerClose={handleDrawerClose}
       /> */}
-      <SideBar
+      {/* <SideBar
         open={DrawerOpen}
         handleDrawerClose={() => handleDrawerClose()}
-      />
+      /> */}
       <Box component="main" sx={{ flexGrow: 1 }}>
         {children}
       </Box>
