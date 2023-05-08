@@ -6,8 +6,8 @@ import Typography from "@mui/material/Typography";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import AddSharpIcon from "@mui/icons-material/AddSharp";
-import RemoveSharpIcon from "@mui/icons-material/RemoveSharp";
+// import AddSharpIcon from "@mui/icons-material/AddSharp";
+// import RemoveSharpIcon from "@mui/icons-material/RemoveSharp";
 import { faqs } from "./constants";
 
 const FAQs: React.FC = () => {
@@ -67,7 +67,7 @@ const FAQs: React.FC = () => {
             }}
             className="font-LGC"
           >
-            Frequently Asked Questions
+            Frequently Asked Questions to you 
           </Typography>
         </Container>
       </Box>
@@ -114,9 +114,38 @@ const FAQs: React.FC = () => {
                 }}
                 expandIcon={
                   expanded === faq.id ? (
-                    <RemoveSharpIcon color="primary" />
+                    // <RemoveSharpIcon color="primary" /> 
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 12h-15"
+                    />
+                  </svg>               
+
                   ) : (
-                    <AddSharpIcon color="primary" />
+                    // <AddSharpIcon color="primary" />
+                    <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.5}
+                          stroke="currentColor"
+                          className="w-5 h-5"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
                   )
                 }
                 aria-controls={`${faq.id}-content`}

@@ -86,7 +86,7 @@ const FreeConsultation = () => {
                 href={'https://calendly.com/ttp-82/free-consultation'}
                 onClick={() => setIsModalOpen(true)}
               >
-                BOOK FREE CONSULTATION
+                BOOK FREE CONSULTATION 
               </button>
             </span>
             <PopupModal
