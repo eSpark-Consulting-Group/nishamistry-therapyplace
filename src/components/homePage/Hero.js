@@ -75,7 +75,7 @@ export default function Hero({ hero }) {
               <div className="absolute -bottom-[7.5rem] left-0 right-0 h-36 bg-snow p-5 text-center font-LGC text-2xl text-navy">
                 <p className="">Help your toddler talk Parent coaching programme</p>
 
-                <Link href="/parent_caching_programme">
+                {/* <Link href="/parent_caching_programme">
                   <a className="flex items-center">
                     <img
                       className="absolute -bottom-6 right-[8.5rem]"
@@ -85,7 +85,7 @@ export default function Hero({ hero }) {
                       alt="plus icon"
                     />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

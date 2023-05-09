@@ -33,7 +33,7 @@ export default function MobileHero({ hero }) {
         />
         <div className="absolute -bottom-[5rem] left-0 right-0 h-20 bg-snow p-2 text-center font-LGC text-navy">
           <p style={{fontSize:"12px"}} className="">Help your toddler talk Parent coaching programme</p>
-          <Link href="/parent_caching_programme">
+          {/* <Link href="/parent_caching_programme">
             <a className="flex items-center">
               <img
                 className="absolute -bottom-4 right-[4.5rem]"
@@ -43,7 +43,7 @@ export default function MobileHero({ hero }) {
                 alt="plus icon"
               />
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
