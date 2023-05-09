@@ -1,5 +1,5 @@
 # nishamistry-therapyplace
-To develop website for client as per provided requirements check vercal
+To develop website for client as per provided requirements
 
 # Next.js + Tailwind CSS Example
 
