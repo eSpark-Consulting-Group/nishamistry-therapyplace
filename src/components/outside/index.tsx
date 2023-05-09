@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
@@ -7,7 +6,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import FAQs from "./components/FAQs";
 import Reviews from "./components/Reviews";
-// import Footer from "./components/layout/Footer";
 import VideoSection from "./components/VideoSection";
 import PriceSection from "./components/PriceSection";
 import Introduction from "./components/Introduction";
@@ -133,7 +131,6 @@ export default function Home() {
       <PriceSection />
       <Reviews />
       <FAQs />
-      {/* <Footer /> */}
     </>
   );
 }
