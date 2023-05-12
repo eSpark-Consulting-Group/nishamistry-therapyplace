@@ -22,7 +22,7 @@ const VideoSection: React.FC = () => {
       <div className=" relative flex flex-col items-center justify-center rounded-[67px] bg-mint  sm:h-[399px] sm:w-[560px] md:h-[435px] md:w-[611px] lg:h-[842px]  lg:w-[1184px]  ">
         <img
           className=" object-cover sm:h-[347px] sm:w-[492px] md:h-auto md:w-[537px] lg:h-auto lg:w-[1000px]  "
-          src="../../img/Monitor_mage.png"
+          src="/img/Monitor_Image.png"
           alt="video"
         />
         <video
