@@ -1,4 +1,7 @@
 import React from 'react'
+import Monitor from "../../../../../public/img/Monitor_image.png";
+import Image from 'next/image';
+
 const VideoSection: React.FC = () => {
   const points = [
     'Might be delayed with their speech',
@@ -19,9 +22,9 @@ const VideoSection: React.FC = () => {
     sm:w-[560px] md:w-[611px] lg:w-[1184px] ">
       {/* video monitor */}
       <div className=" relative flex flex-col items-center justify-center rounded-[67px] bg-mint  sm:h-[399px] sm:w-[560px] md:h-[435px] md:w-[611px] lg:h-[842px]  lg:w-[1184px]  ">
-        <img
+        <Image
           className=" object-cover sm:h-[347px] sm:w-[492px] md:h-auto md:w-[537px] lg:h-auto lg:w-[1000px]  "
-          src="../../img/Monitor_image.png"
+          src={Monitor}
           alt="video"
         />
         <video
