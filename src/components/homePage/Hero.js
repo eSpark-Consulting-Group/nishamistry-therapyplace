@@ -39,7 +39,7 @@ export default function Hero({ hero }) {
         <div className="relative -mt-24">
           <div className="">
             <div className="absolute top-0 right-[25%] bg-chocolate">
-              {/* <img
+              <img
                 alt={cards[0].alt}
                 className=""
                 src={urlFor(cards[0].img)
@@ -48,7 +48,7 @@ export default function Hero({ hero }) {
                   .fit('clip')
                   .auto('format')
                   .url()}
-              /> */}
+              />
               <div className="">
                 <p className="absolute text-3xl top-5 left-5 text-snow">
                   {cards[0].text}

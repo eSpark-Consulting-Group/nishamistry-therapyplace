@@ -1,16 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Box from '@mui/material/Box'
-import Stack from '@mui/material/Stack'
-import Grid from '@mui/material/Grid'
-import Button from '@mui/material/Button'
-import Container from '@mui/material/Container'
-import Typography from '@mui/material/Typography'
-import CHILD_READING from '../../../../../public/img/WEB-CHILD READING@4x.png'
-import HUGGING_CHILD from '../../../../../public/img/WEB-HUGGING CHILD@4x.png'
-import CHECK_ICON from '../../../../../public/svg/WEB-TICK.svg'
-import MONITOR from '../../../../../public/img/Monitor_Image.png'
-
 const VideoSection: React.FC = () => {
   const points = [
     'Might be delayed with their speech',
@@ -134,7 +122,7 @@ const VideoSection: React.FC = () => {
              md:text-[9px]
              sm:text-[7px]"
           >
-           BUY IT NOW
+            BUY IT NOW
           </button>
         </div>
       </div>
