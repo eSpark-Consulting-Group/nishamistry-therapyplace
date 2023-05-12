@@ -15,8 +15,10 @@ import BANNER_IMAGE from "../../../public/img/TABLET-HEADER@4x.png";
 
 export default function Home() {
   return (
-    <>
-      <Box
+    
+    <div className="flex flex-col items-center bg-white justify-center">
+   
+      {/* <Box
         sx={{
           backgroundColor: "#D0CC83",
         }}
@@ -126,14 +128,16 @@ export default function Home() {
             </Box>
           </Stack>
         </Container>
-      </Box>
+      </Box> */}
 
       <VideoSection />
-      <Introduction />
-      <PriceSection />
-      <Reviews />
-      <FAQs />
+     {/* <Introduction /> */}
+     
+       {/* <PriceSection />  */}
+      {/* <Reviews />
+      <FAQs />  */} 
       {/* <Footer /> */}
-    </>
+   
+   </div>
   );
 }
