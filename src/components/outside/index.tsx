@@ -12,23 +12,19 @@ import VideoSection from './components/VideoSection'
 import PriceSection from './components/PriceSection'
 import Introduction from './components/Introduction'
 import BANNER_IMAGE from '../../../public/img/TABLET-HEADER@4x.png'
-import HeroSection from './components/herosection'
+import HeroSection from './components/HeroSection'
 
 export default function Home() {
   return (
-    
-     
-     <div className="flex flex-col items-center justify-center bg-white">    
+    <div className="flex flex-col items-center justify-center bg-white">
+      <HeroSection />
+      <VideoSection />
+      {/* <Introduction /> */}
 
-<HeroSection />  
-        <VideoSection />
-          {/* <Introduction /> */}
-
-          {/* <PriceSection />  */}
-          {/* <Reviews />
+      {/* <PriceSection />  */}
+      {/* <Reviews />
       <FAQs />  */}
-          {/* <Footer /> */}
+      {/* <Footer /> */}
     </div>
-    
   )
 }
