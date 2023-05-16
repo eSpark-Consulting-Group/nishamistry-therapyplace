@@ -20,7 +20,7 @@ export default function Home() {
       <HeroSection />
       <VideoSection />
       {/* <Introduction /> */}
-
+      <Introduction />
       {/* <PriceSection />  */}
       {/* <Reviews />
       <FAQs />  */}
