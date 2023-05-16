@@ -17,6 +17,8 @@ export default function Home() {
   return (
     
     <div className="flex flex-col items-center bg-white justify-center">
+
+
    
       {/* <Box
         sx={{
@@ -131,7 +133,7 @@ export default function Home() {
       </Box> */}
 
       <VideoSection />
-     {/* <Introduction /> */}
+     <Introduction />
      
        {/* <PriceSection />  */}
       {/* <Reviews />
