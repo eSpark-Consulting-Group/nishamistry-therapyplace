@@ -11,241 +11,118 @@ import Image from "next/image";
 
 const PriceSection: React.FC = () => {
   return (
-    <div>
-    <div className='lg:w-[1924px]
-     lg:h-[144px] md:w-[824px] 
-      md:h-[61px] sm:w-[695px] sm:h-[51px] bg-mint 
-       md:w-[611px]  my-4 flex flex-col items-center justify-center '>
-   <div className="relative py-5 max-w-100 ">
-   {/* Green star */}
-   <div className="absolute top-[-20px] 
-   right-[40px] 
+    <>
+    <div className='
+    w-[100%] 
+     lg:h-[144px] md:h-[61px] sm:h-[51px]
+       bg-mint 
+        my-4 flex flex-col items-center justify-center '>
+   <div className="relative py-5 w-[100%]   ">
+   {/* LEFT Green star */} 
+   <div className="absolute lg:top-[-43%] md:top-[-15%]  sm:top-[-9%] 
+   lg:right-[12%] md:right-[9%] sm:right-[11%] 
     rotate-45	">
-    <img src="../../svg/GREEN_STAR.svg"  alt="green star" className="h-30" />
+    <img src="../../svg/GREEN STAR.svg"  alt="green star" className="lg:w-[60px] lg:h-[60px] md:w-[23px] md:h-[22px] sm:w-[19px] sm:-h[19px]" />
    </div>
-   {/* Green str two */}
-   <div className="absolute bottom-[-20px] 
-   left-[50px]  rotate--40	">
-    <img src="../../svg/GREEN_STAR.svg"  alt="green star" className="h-30" />
-   </div>
-   <div className="absolute sm:top-[-30px]
-    lg:top-[5px]
-     left-[0px] rotate-45	">
-    <img src="../../svg/ORANGE_STAR.svg"  alt="orange star" className="h-50" />
-   </div>
-   <div className="absolute bottom-[-30px] right-[0] ">
-    <img src="../../svg/NAVY_STAR.svg"  alt="navy star" className="h-50" />
-   </div>
-   <h4 className="text-primary lg:text-[50px] md:text-[21px] sm:text-[17px] text-center font-semibold uppercase font-LGC "> All of this for the half the price of a single therapy session!</h4>
-   </div>
-    </div>
-    <div className="max-w-md my-6">
-      <div className="space-5 text-center">
-     {/* <div className="p-6 flex justify-center items-center rounded-"> */}
-        {/* </div>   */}
-        <div className="  lg:w-[1500px] lg:h-[80px] bg-no-repeat "   style={{ 
-      backgroundImage: `url("../../svg/WEB-ORANGE BUTTON.svg")` ,
+   {/* RIGHT Green str two */}
 
-    }} > 
-    <h5 className="font-LGCB text-white lg:text-[36px] md:text-[15px] sm:text-[12px] "> LIMITED INTRODUCTORY OFFER!!</h5>
-      </div>
-
-    </div>
-    </div>
-    </div>
-    // <Box>
-    //   <Box
-    //     sx={{
-    //       backgroundColor: "#CBDBD8",
-    //     }}
-    //   >
-    //     <Container
-    //       maxWidth="lg"
-    //       component="div"
-    //       sx={{
-    //         position: "relative",
-    //         py: 5,
-    //       }}
-    //     >
-    //       <Box
-    //         sx={{
-    //           position: "absolute",
-    //           top: -20,
-    //           right: 40,
-    //           transform: "rotate(45deg)",
-    //         }}
-    //       >
-    //         <Image src={GREEN_STAR} alt="green star" height={30} />
-    //       </Box>
-    //       <Box
-    //         sx={{
-    //           position: "absolute",
-    //           bottom: -20,
-    //           left: 50,
-
-    //           transform: "rotate(-40deg)",
-    //         }}
-    //       >
-    //         <Image src={GREEN_STAR} alt="green star" height={30} />
-    //       </Box>
-
-    //       <Box
-    //         sx={{
-    //           position: "absolute",
-    //           top: {
-    //             xs: -30,
-    //             lg: 5,
-    //           },
-    //           left: 0,
-    //           transform: "rotate(45deg)",
-    //         }}
-    //       >
-    //         <Image src={ORANGE_STAR} alt="orange star" height={50} />
-    //       </Box>
-    //       <Box sx={{ position: "absolute", bottom: -30, right: 0 }}>
-    //         <Image src={NAVY_STAR} alt="navy star" height={50} />
-    //       </Box>
-
-    //       <Typography
-    //         variant="h4"
-    //         color="primary"
-    //         align="center"
-    //         fontWeight={600}
-    //         sx={{
-    //           textTransform: "uppercase",
-    //           fontSize: {
-    //             xs: "20px",
-    //             md: "35px",
-    //             lg: "45px",
-    //           }
-    //         }}
-    //         className="font-LGCB"
-    //       >
-    //         All of this for the half the price of a single therapy session!
-    //       </Typography>
-    //     </Container>
-    //   </Box>
-
-    //   <Container
-    //     maxWidth="md"
-    //     component="div"
-    //     sx={{
-    //       my: 6,
-    //     }}
-    //   >
-    //     <Stack spacing={5} alignItems="center">
-    //       <Box
-    //         sx={{
-    //           p: 6,
-    //           px: { xs: 6, md: 6, lg: 10 },
-    //           mx: { xs: 2 },
-    //           mr: { xs: 3 },
-    //           display: "flex",
-    //           justifyContent: "center",
-    //           alignItems: "center",
-    //           flexDirection: "column",
-    //           backgroundColor: "#CD7F59",
-    //           borderRadius: "200px",
-    //           maxWidth: "600px",
-    //           boxShadow: `10px 12px 0px 0px rgba(163, 94, 65, 1)`,
-    //         }}
-    //       >
-    //         <Typography
-    //           color="White"
-    //           sx={{
-    //             textTransform: "uppercase",
-    //             fontSize: {
-    //               xs: 14,
-    //               md: 20,
-    //               lg: 28,
-    //             }
-    //           }}
-    //           fontWeight={500}
-    //           className="font-LGC"
-    //         >
-    //           LIMITED INTRODUCTORY OFFER!!
-    //         </Typography>
-    //         <Typography
-    //           color="primary"
-    //           fontWeight={600}
-    //           textAlign={"center"}
-    //           sx={{
-    //             textTransform: "uppercase",
-    //             fontSize: {
-    //               xs: 18,
-    //               md: 24,
-    //               lg: 32,
-    //             }
-    //           }}
-    //           className="font-LGCB"
-    //         >
-    //           ACCESS TO THE FULL PROGRAMME
-    //         </Typography>
-
-    //         <Typography
-    //           sx={{
-    //             color: "#D0CC83",
-    //             fontSize: {
-    //               xs: 18,
-    //               md: 24,
-    //               lg: 32,
-    //             }
-    //           }}
-    //           fontWeight={600}
-    //           className="font-LGCB"
-    //         >
-    //           (
-    //           <Typography
-    //             sx={{
-    //               color: "#D0CC83",
-    //               fontSize: {
-    //                 xs: 18,
-    //                 md: 24,
-    //                 lg: 32,
-    //               },
-    //               textDecoration: "line-through",
-    //             }}
-    //             fontWeight={600}
-    //             component="span"
-    //             className="font-LGCB"
-    //           >
-    //             £89.99
-    //           </Typography>
-    //           ) £49.99
-    //         </Typography>
-    //       </Box>
-
-    //       <Button
-    //         variant="contained"
-    //         size="large"
-    //         color="primary"
-    //         sx={{
-    //           px: 10,
-    //           py: 1,
-    //           mt: 3,
-    //         }}
-    //         style={{ backgroundColor: "#23254E" }}
-    //       >
-    //         <Typography
-    //           variant="h4"
-    //           sx={{
-    //             textTransform: "uppercase",
-    //             fontWeight: 400,
-    //             fontSize: {
-    //               xs: "16px",
-    //               md: "18px",
-    //               lg: "24px",
-    //             }
-    //           }}
-    //           className="font-LGC"
-    //         >
-    //           Buy it Now
-    //         </Typography>
-    //       </Button>
-    //     </Stack>
-    //   </Container>
-    // </Box>
+   <div className="absolute
+    lg:bottom-[-43px] 
+   lg:left-[232px] 
+   md:bottom-[-12%] 
+   md:left-[10%] 
+   sm:bottom-[-5%] 
+   sm:left-[10%] 
    
+   rotate--40	">
+    <img src="../../svg/GREEN STAR.svg"  alt="green star" className="lg:w-[60px] lg:h-[70px]
+     md:w-[23px] md:h-[22px] 
+     sm:w-[19px] sm:-h[19px]" />
+   </div>
+   <div className="absolute 
+     lg:top-[-20px]  lg:left-[120px]
+     md:top-[-2px]  md:left-[40px]
+     sm:top-[3%]  sm:left-[30px]
+      rotate-45	">
+    <img src="../../svg/ORANGE STAR.svg"  alt="orange star"
+     className="lg:w-[60px] lg:h-[70px]
+     md:w-[28px] md:h-[28px]
+      sm:w-[24px] sm:-h[19px]" />
+   </div>
+   <div className="absolute
+    lg:bottom-[-44px] 
+     lg:right-[130px]
+     md:bottom-[-12%] 
+     md:right-[30px]
+     sm:bottom-[-9%] 
+     sm:right-[32px]  
+     ">
+    <img src="../../svg/NAVY STAR.svg"  alt="navy star" 
+    
+    className="lg:w-[60px] lg:h-[70px]  
+        md:w-[28px] md:h-[28px]
+ sm:w-[22px] sm:-h[20px]" />
+   </div>
+   <h4 className="text-primary lg:text-[50px] md:text-[21px] sm:text-[17px]
+    text-center
+     font-semibold
+      uppercase font-LGC "> All of this for the half the price of a single therapy session!</h4>
+   </div>
+    </div>
+    <div className="  mt-[10px] my-24 lg:w-[1200px] lg:h-[600px]  flex flex-col justify-center items-center">
+  {/* <div className="bg-no-repeat bg-center bg-cover w-600 h-300 p-20"  Style="background-image: url('./public/svg/WEB-ORANGE BUTTON.svg')"> */}
+     <div className="  bg-no-repeat  lg:w-[1029px] lg:h-[408px]
+      md:w-[437px] md:h-[165px]
+      sm:w-[368px] sm:h-[140px]
+
+        "   style={{ 
+      backgroundImage: `url("../../svg/WEB-ORANGE BUTTON.svg")` ,
+    }} > 
+    <div className="z-10 flex flex-col justify-center items-center lg:h-[408px] md:h-[165px] sm:h-[140px] ">
+      <span className="text-white lg:text-[36px] md:text-[15px] sm:text-[12px]
+         font-LGCB">LIMITED INTRODUCTORY OFFER!!</span>
+      <span className="lg:text-[50px] md:text-[23px] sm:text-[19px]
+       text-navy
+       font-LGCB ">ACCESS TO THE FULL PROGRAMME</span>
+      <span className="text-lightyellow 
+      lg:text-[84px] md:text-[36px] sm:text-[30px] 
+      lg:leading-[112.57px] md:leading-[48.26px] sm:leading-[40.13px]">£89.99</span>
+    </div>
+  </div>
+  <button className="btnbuy bg-navy text-white lg:text-[40px] md:text-[15px]
+   uppercase lg:py-4 lg:px-20 
+   border-none flex justify-center items-center font-LGC
+   lg:w-[550px] lg:mt-10 md:mt-5 sm:mt-4 lg:h-[80px] md:w-[238px] md:h-[38px] sm:w-[200px] sm:h-[32px]">Buy it Now</button>
+</div>
+
+
+<div className="bg-lightyellow flex  justify-center items-center flex-col py-8 lg:w-[100%] md:w-[100%] sm:w-[100%] ">
+  <div className="lg:w-[58%] md:w-[60%] sm:w-[60%] text-center">
+  <div className="lg:text-[40px] md:text-[17px] sm:text-[14px]
+   lg:leading-[48px] md:leading-[20.78px] sm:leading-[17.11px]
+    font-LGC mb-8">"Nisha's strategies for us to use at home have been essential in supporting Theo's language development"</div>
+    </div>
+    <div className="">
+  <ul className="flex items-center list-none  ">
+    <li className="mr-4 font-LGCB lg:text-[20px] ">Sarah, UK</li>
+    <li className="mr-4">
+      <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px] " />
+    </li>
+    <li className="mr-4">
+      <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
+    </li>
+    <li className="mr-4">
+      <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
+    </li>
+    <li className="mr-4">
+      <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
+    </li>       
+  </ul>
+  </div>
+</div>
+</>
+    
+  
   );
 };
 

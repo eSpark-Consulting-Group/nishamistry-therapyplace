@@ -21,7 +21,7 @@ export default function Home() {
       <VideoSection />
       {/* <Introduction /> */}
 
-      {/* <PriceSection />  */}
+      <PriceSection /> 
       {/* <Reviews />
       <FAQs />  */}
       {/* <Footer /> */}
