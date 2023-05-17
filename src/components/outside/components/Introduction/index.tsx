@@ -17,6 +17,8 @@ import HOORAY from '../../../../../public/img/WEB-HOORAY@4x.png'
 // import IntroductionHeader from './components/outside/components/introduction/introductionHeader.tsx'
 import IntroductionHeader from './IntroductionHeader'
 import SectionOne from './SectionOne'
+import SectionTwo from './SectionTwo'
+import SectionThree from './SectionThree'
 
 const Introduction: React.FC = () => {
   const points = [
@@ -55,11 +57,13 @@ const Introduction: React.FC = () => {
     "doesn't turn to their name",
   ]
   return (
-    <div className="flex flex-col items-center bg-white justify-center w-[100%]">
+    <div className="flex w-[100%] flex-col items-center justify-center bg-white">
       <IntroductionHeader />
       <SectionOne />
+      <SectionTwo />
+      <SectionThree />
     </div>
   )
-};
+}
 
-export default Introduction; 
+export default Introduction

@@ -27,9 +27,10 @@ export const points2List2 = [
 ]
 
 export const points3List = [
-  'has delayed speech in comparison to children of the same age ',
-  'says words but they are very unclear',
-  "doesn't seem to show interest in play or interaction with you.",
-  "doesn't show interest in playing with other children",
-  "doesn't turn to their name",
+  'Is late to talk',
+  'Has delayed speech in comparison to children of the same age ',
+  'Says words but they are very unclear',
+  "Doesn't seem to show interest in play or interaction with you.",
+  "Doesn't show interest in playing with other children",
+  "Doesn't turn to their name",
 ]
