@@ -25,8 +25,8 @@ export default function Home() {
       {/* <PriceSection />  */}
       <Introduction />
       <PriceSection />
+       <FAQs />  
       {/* <Reviews />
-      <FAQs />  */}
       {/* <Footer /> */}
     </div>
   )
