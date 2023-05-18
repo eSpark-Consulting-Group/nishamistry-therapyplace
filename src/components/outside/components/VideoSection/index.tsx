@@ -44,6 +44,7 @@ const VideoSection: React.FC = () => {
           Your browser does not support the video tag.{' '}
         </video>
       </div>
+      
       {/* help yor toddle btn */}
       <div
         className="absolute 
@@ -99,7 +100,6 @@ const VideoSection: React.FC = () => {
           <span
             className="
         p-0 font-LGC 
-
         lg:leading-[38px]
         md:leading-[10px]
         sm:leading-[15px]

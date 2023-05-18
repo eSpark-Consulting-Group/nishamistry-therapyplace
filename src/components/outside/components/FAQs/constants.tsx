@@ -2,7 +2,8 @@ export const faqs = [
     {
         id: "panel1",
         question: "Why is this programme so cheap?",
-        answer: "I wanted to give an affordable option so ALL families were able to access this vital information and take the first steps sooner rather than later.\nFrom talking to families I learnt that cost is a big factor when parents are considering speaking to a specialist and causes them to delay the decision. It is so important to take advantage of that critical time period for early intervention and give children the boost they need to help them develop their communication skills and these tutorials will be a great place to start.",
+        answer: "I wanted to give an affordable option so ALL families were able to access this vital information and take the first steps sooner rather than later.\nFrom talking to families I learnt that cost is a big factor when parents are considering speaking to a specialist and causes them to delay the decision. It is so important to take advantage of that critical time period for early intervention and give children the boost they need to help them develop their communication skills and these tutorials will be a great place to start, <br /><br />typically,therapy can be either less intensive, like enhanching public speaking skills, or complex, for problems like stroke.During your first meeting with a pathologist,they will analyse your medical history and craft a tailored treatment plan indicating a clear mao on how to attain the treatment "         
+    
     },
     {
         id: "panel2",

@@ -14,20 +14,18 @@ import Introduction from './components/Introduction'
 import BANNER_IMAGE from '../../../public/img/TABLET-HEADER@4x.png'
 import HeroSection from './components/HeroSection'
 import ToddlerTalkSection from './components/ToddlerTalkSection'
+import ButtonTwo from './components/FAQs/FaqSection'
+
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white">
+    <div className="flex flex-col items-center justify-center bg-white md:mb-[40px] lg:mb-[18px] sm:mb-[18px]">
       <HeroSection />
       <VideoSection />
       <ToddlerTalkSection />
-      {/* <Introduction /> */}
-
-      {/* <PriceSection />  */}
       <Introduction />
       <PriceSection />
-      {/* <Reviews />
-      <FAQs />  */}
-      {/* <Footer /> */}
+      <FAQs /> 
+      <ButtonTwo />
     </div>
   )
 }
