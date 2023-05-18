@@ -133,7 +133,7 @@ const ToddlerTalkSection: React.FC = () => {
     </div>
     <div className=' w-[500px] text-center '>
       <p className='font-LGC text-[18px] text-primary leading-[31.29px]'>It's estimated that 1.7 million children in the UK are struggling with speaking and understanding words.</p>
-     <p className='font-LGC text-[18px] text-primary leading-[31.29px]  py-5'>You just want the best for your child so you're feeling frustrated over the lengthy waitlits of public services but funding private speech therapy isn't an option for your right now.</p>
+     <p className='font-LGC text-[18px] text-primary leading-[31.29px]  py-5'>You just want the best for your child so you're feeling frustrated over the lengthy waitlits of public services but funding private speech therapy isn't an option for you right now.</p>
       <p className='font-LGC text-[18px] text-primary leading-[31.29px]'>Many parents think their child will outgrow the delay, and wishlist it's possible ,in many situation it's not the case.And the longer ypu wait,the more significant the impact on your child's developement</p>
       <p className='font-LGC text-[18px] text-primary  my-2 '>Early intervention is so powerful and now it's super affordable tool</p>
       </div>
