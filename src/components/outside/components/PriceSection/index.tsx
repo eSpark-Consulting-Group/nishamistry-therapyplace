@@ -16,7 +16,8 @@ const PriceSection: React.FC = () => {
     w-[100%] 
      lg:h-[144px] md:h-[61px] sm:h-[51px]
        bg-mint 
-        my-4 flex flex-col items-center justify-center '>
+        sm:my-6  md:my-12 lg:my-[60px] 
+         flex flex-col items-center justify-center '>
    <div className="relative py-5 w-[100%]   ">
    {/* LEFT Green star */} 
    <div className="absolute lg:top-[-43%] md:top-[-15%]  sm:top-[-9%] 
@@ -41,7 +42,7 @@ const PriceSection: React.FC = () => {
    </div>
    <div className="absolute 
      lg:top-[-20px]  lg:left-[120px]
-     md:top-[-2px]  md:left-[40px]
+     md:top-[6px]  md:left-[30px]
      sm:top-[3%]  sm:left-[30px]
       rotate-45	">
     <img src="../../svg/ORANGE STAR.svg"  alt="orange star"
@@ -96,15 +97,18 @@ const PriceSection: React.FC = () => {
 </div>
 
 
-<div className="bg-lightyellow flex  justify-center items-center flex-col py-8 lg:w-[100%] md:w-[100%] sm:w-[100%] ">
+<div className="bg-lightyellow flex  justify-center items-center flex-col py-8 lg:w-[100%] md:w-[100%] sm:w-[100%]
+sm:h-[100px] md:h-[120px] lg:h-[281px]
+lg:mt-[-40px] md:mt-[-55px] sm:mt-[-62px]  ">
   <div className="lg:w-[58%] md:w-[60%] sm:w-[60%] text-center">
-  <div className="lg:text-[40px] md:text-[17px] sm:text-[14px]
-   lg:leading-[48px] md:leading-[20.78px] sm:leading-[17.11px]
+  <div className="lg:text-[40px] md:text-[17px] sm:text-[14px] 
+  text-primary
+   lg:leading-[48px] md:leading-[20.58px] sm:leading-[17.11px]
     font-LGC mb-8">"Nisha's strategies for us to use at home have been essential in supporting Theo's language development"</div>
     </div>
     <div className="">
   <ul className="flex items-center list-none  ">
-    <li className="mr-4 font-LGCB lg:text-[20px] ">Sarah, UK</li>
+    <li className="mr-4 font-LGCB lg:text-[40px] md:text-[17px] sm:text-[14px] text-primary">Sarah, UK</li>
     <li className="mr-4">
       <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px] " />
     </li>
@@ -114,6 +118,9 @@ const PriceSection: React.FC = () => {
     <li className="mr-4">
       <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
     </li>
+    <li className="mr-4">
+      <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
+    </li> 
     <li className="mr-4">
       <img src="../../svg/NAVY STAR.svg" alt="" className="lg:w-[45px] lg:h-[42px] md:w-[19px] md:h-[18px] sm:w-[19px] sm:h-[18px]" />
     </li>       
