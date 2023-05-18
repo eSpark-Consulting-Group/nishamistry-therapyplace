@@ -54,7 +54,7 @@ const SectionThree: React.FC = () => {
 
       <div className="flex w-[100%] flex-col items-center justify-center ">
         <div className="flex font-LGC  text-primary sm:my-4 sm:w-[88%] sm:text-[16.5px] md:w-[90%] md:text-[20px] lg:my-8 lg:w-[94%] lg:text-[35px]">
-          if you relate to one or more of these points, then this programme is
+          If you relate to one or more of these points, then this programme is
           for you!
         </div>
       </div>
