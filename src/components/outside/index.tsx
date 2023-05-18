@@ -19,9 +19,8 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center bg-white">
       <HeroSection />
       <VideoSection />
-      {/* <Introduction /> */}
-
-      <PriceSection /> 
+      <Introduction />
+      <PriceSection />
       {/* <Reviews />
       <FAQs />  */}
       {/* <Footer /> */}
