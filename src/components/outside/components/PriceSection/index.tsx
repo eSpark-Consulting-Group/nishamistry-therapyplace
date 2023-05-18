@@ -85,7 +85,7 @@ const PriceSection: React.FC = () => {
       <span className="lg:text-[50px] md:text-[23px] sm:text-[19px]
        text-navy
        font-LGCB ">ACCESS TO THE FULL PROGRAMME</span>
-      <span className="text-lightyellow 
+      <span className="font-LGC text-lightyellow 
       lg:text-[84px] md:text-[36px] sm:text-[30px] 
       lg:leading-[112.57px] md:leading-[48.26px] sm:leading-[40.13px]">£89.99</span>
     </div>

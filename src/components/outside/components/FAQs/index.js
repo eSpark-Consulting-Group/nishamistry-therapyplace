@@ -32,7 +32,7 @@ const FAQs = () => {
               <Disclosure key={item.id} >
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-sm text-left border-t-4 border-navy text-navy first:mt-0 last:border-b-4 last:pb-4 focus:outline-none focus-visible:ring focus-visible:ring-navy focus-visible:ring-opacity-75 sm:text-[9px] md:text-[11px] lg:text-[19px]">
+                    <Disclosure.Button className="flex  items-center justify-between w-full px-4 py-4 text-sm text-left border-t-4 border-navy text-navy first:mt-0 last:border-b-4 last:pb-4 focus:outline-none focus-visible:ring focus-visible:ring-navy focus-visible:ring-opacity-75 sm:text-[9px] md:text-[11px] lg:text-[19px]">
                       <span>{item.question}</span>
                       {open ? (
                         
@@ -67,7 +67,7 @@ const FAQs = () => {
                           projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}
                           dataset={process.env.NEXT_PUBLIC_SANITY_DATASET}
                         /> */}
-                        <div className="lg:text-[21px] md:text-[12px] sm:text-[12px] italic text-snow font-LGC" dangerouslySetInnerHTML={{__html:item.answer}}></div>
+                        <div className=" lg:text-[21px] md:text-[12px] sm:text-[12px] italic text-snow lg:my-[-2px] font-LGC " dangerouslySetInnerHTML={{__html:item.answer}}></div>
                       </Disclosure.Panel>
                     </Transition>
                   </>

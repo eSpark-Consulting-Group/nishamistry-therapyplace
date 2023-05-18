@@ -99,7 +99,6 @@ const VideoSection: React.FC = () => {
           <span
             className="
         p-0 font-LGC 
-
         lg:leading-[38px]
         md:leading-[10px]
         sm:leading-[15px]
