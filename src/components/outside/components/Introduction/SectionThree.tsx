@@ -4,22 +4,22 @@ const SectionThree: React.FC = () => {
   return (
     <div className="sm:w-[90%] md:w-[90%] lg:w-[1184px]">
       <div className="flex justify-between">
-        <div className="sm:pt-10 md:pt-10 lg:pt-10">
+        <div className="sm:pt-5 md:pt-10 lg:pt-10">
           <img
             src="../../img/WEB-HOORAY@4x.png"
-            className="sm:h-[165px] sm:w-[380px] md:h-[200px] md:w-[470px] lg:h-[330px] lg:w-[750px]"
+            className="sm:h-[170px] sm:w-[370px] md:h-[220px] md:w-[480px] lg:h-[380px] lg:w-[790px]"
             alt=""
           />
         </div>
         <div className="flex flex-col items-end">
           <img
             src="../../img/WEB-BUY IT NOW@4x.png"
-            className="sm:h-[30px] sm:w-[200px] md:h-[40px] md:w-[250px] lg:h-[55px] lg:w-[390px]"
+            className="sm:h-[30px] sm:w-[200px] md:h-[40px] md:w-[250px] lg:h-[60px] lg:w-[390px]"
             alt=""
           />
           <img
             src="../../img/WEB-NUMBER 3@4x.png"
-            className="sm:mr-1  sm:h-[180px] sm:w-[110px] md:mr-5 md:h-[230px] md:w-[150px] lg:mr-5 lg:h-[350px] lg:w-[200px]"
+            className="sm:mr-1  sm:h-[180px] sm:w-[110px] md:mr-5 md:h-[230px] md:w-[150px] lg:mr-5 lg:h-[420px] lg:w-[260px]"
             alt=""
           />
         </div>
