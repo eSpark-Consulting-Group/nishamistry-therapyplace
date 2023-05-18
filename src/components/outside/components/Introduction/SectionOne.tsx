@@ -2,11 +2,11 @@ import { points, points1List } from './constants'
 
 const SectionOne: React.FC = () => {
   return (
-    <div className="sm:w-[90%] md:w-[90%] lg:w-[1184px]">
+    <div className="sm:w-[90%] md:w-[90%] lg:w-[1184px] lg:mt-4 md:mt-10 sm:mt-2">
       <div className="flex flex-row justify-between">
         <img
           src="../../img/WEB-NISHA NOTEPAD@4x.png"
-          className="sm:h-[577px] sm:w-[266px] md:h-[699px] md:w-[322px] lg:h-[1221px] lg:w-[563px]"
+          className="sm:h-[577px] sm:w-[290px] md:h-[699px] md:w-[350px] lg:h-[1221px] lg:w-[590px]"
           alt=""
         />
         <div className="flex flex-col items-end">

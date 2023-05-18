@@ -1,7 +1,7 @@
 const IntroductionHeader: React.FC = () => {
     return (
        
-        <div className="relative flex items-center justify-center bg-chocolate sm:h-[100px] w-[100%] md:h-[120px] lg:h-[272px] mb-10">
+        <div className="relative flex items-center justify-center bg-chocolate sm:h-[100px] w-[100%] md:h-[120px] lg:h-[272px]  mb-10">
           <div className="flex h-full w-3/5 items-center justify-center">
             <div className="flex flex-col items-center justify-center">
               <div className="flex h-full w-1/6 flex-col items-center justify-center">

@@ -17,7 +17,7 @@ const VideoSection: React.FC = () => {
   return (
     <div className="relative flex  flex-col items-center justify-center 
     lg:pb-[150px] md:pb-[100px] sm:pb-[100px] 
-    sm:w-[560px] md:w-[611px] lg:w-[1184px] ">
+    sm:w-[560px] md:w-[611px] lg:w-[1184px] lg:mt-6 md:mt-16 sm:mt-8">
       {/* video monitor */}
       <div className=" relative flex flex-col items-center justify-center rounded-[67px] bg-mint  sm:h-[399px] sm:w-[560px] md:h-[435px] md:w-[611px] lg:h-[842px]  lg:w-[1184px]  ">
         <img

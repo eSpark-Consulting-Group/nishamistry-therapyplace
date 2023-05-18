@@ -13,12 +13,16 @@ import PriceSection from './components/PriceSection'
 import Introduction from './components/Introduction'
 import BANNER_IMAGE from '../../../public/img/TABLET-HEADER@4x.png'
 import HeroSection from './components/HeroSection'
-
+import ToddlerTalkSection from './components/ToddlerTalkSection'
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center bg-white">
       <HeroSection />
       <VideoSection />
+      <ToddlerTalkSection />
+      {/* <Introduction /> */}
+
+      {/* <PriceSection />  */}
       <Introduction />
       <PriceSection />
       {/* <Reviews />

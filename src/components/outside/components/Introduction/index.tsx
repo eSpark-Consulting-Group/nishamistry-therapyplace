@@ -57,7 +57,7 @@ const Introduction: React.FC = () => {
     "doesn't turn to their name",
   ]
   return (
-    <div className="flex w-[100%] flex-col items-center justify-center bg-white">
+    <div className="flex w-[100%] flex-col items-center sm:mt-8 md:mt-10 lg:mt-[100px] justify-center bg-white">
       <IntroductionHeader />
       <SectionOne />
       <SectionTwo />
