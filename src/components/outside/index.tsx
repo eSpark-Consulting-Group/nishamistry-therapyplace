@@ -18,13 +18,13 @@ import ButtonTwo from './components/FAQs/FaqSection'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white md:mb-[40px] lg:mb-[18px] sm:mb-[18px]">
+    <div className="flex flex-col items-center justify-center bg-white sm:mb-[18px] md:mb-[40px] lg:mb-[18px]">
       <HeroSection />
       <VideoSection />
       <ToddlerTalkSection />
       <Introduction />
       <PriceSection />
-      <FAQs /> 
+      <FAQs />
       <ButtonTwo />
     </div>
   )
