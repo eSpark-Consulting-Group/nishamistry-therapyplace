@@ -13,10 +13,10 @@ export const points1List = [
 
 export const points2List1 = [
   'Watch, wait and follow',
-  'Developing joint attention',
+  'Developing Joint Attention',
   'Commenting',
   'Expanding language',
-  'Creating opportunities',
+  'Creating Opportunities',
   'Encouraging sounds',
   'Simple strategies that you can replay as many times as you need to.',
 ]
@@ -30,7 +30,7 @@ export const points3List = [
   'Is late to talk',
   'Has delayed speech in comparison to children of the same age ',
   'Says words but they are very unclear',
-  "Doesn't seem to show interest in play or interaction with you.",
-  "Doesn't show interest in playing with other children",
-  "Doesn't turn to their name",
+  "Don't seem to show interest in play or interaction with you.",
+  "Don't show interest in playing with other children",
+  "Don't turn to their name",
 ]

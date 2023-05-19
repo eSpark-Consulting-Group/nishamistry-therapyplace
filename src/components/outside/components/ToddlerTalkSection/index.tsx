@@ -45,11 +45,11 @@ const ToddlerTalkSection: React.FC = () => {
             {childConcerned.map((talk) => (
               <div
                 className=" relative font-LGC text-primary
-               md:pl-[20px] md:text-[13px] md:leading-[20.35px] lg:w-[571px] lg:pl-[36px] lg:text-[23px] lg:leading-[30px]"
+               md:pl-[20px] md:text-[13px] md:leading-[20.35px] lg:w-[571px] lg:pl-[36px] lg:text-[23px] lg:leading-[36px]"
               >
                 <img
                   src="../../svg/WEB-TICK.svg"
-                  className="absolute top-0 left-0 md:w-[15px] lg:mr-2 lg:w-[25px]"
+                  className="absolute left-0 md:top-0.5 md:w-[15px] lg:top-1.5 lg:mr-2 lg:w-[25px]"
                   alt=""
                 />
                 {talk}
@@ -64,22 +64,22 @@ const ToddlerTalkSection: React.FC = () => {
         {/* second image them content */}
         <div className="flex md:mt-[40px] lg:mt-[60px] ">
           <div className=" md:w-[330px] md:px-[4px] lg:w-[571px] lg:px-[6px]">
-            <p className="font-LGC text-primary md:text-[11px] md:leading-[20.35px] lg:text-[20.5px] lg:leading-[36px]">
+            <p className="font-LGC text-primary md:text-[11px] md:leading-[20.35px] lg:text-[21px] lg:leading-[36px]">
               It's estimated that 1.7 million children in the UK are struggling
               with speaking and understanding words.
             </p>
-            <p className="font-LGC text-primary md:my-5  md:text-[11px] md:leading-[20.35px] lg:my-5 lg:text-[20.5px] lg:leading-[36px]">
+            <p className="font-LGC text-primary md:my-5  md:text-[11px] md:leading-[20.35px] lg:my-5 lg:text-[21px] lg:leading-[36px]">
               You just want the best for your child so you're feeling frustrated
               over the lengthy waitlits of public services but funding private
-              speech therapy isn't an option for your right now.
+              speech therapy isn't an option for you right now.
             </p>
-            <p className="font-LGC text-primary md:my-2 md:text-[11px] md:leading-[20.35px] lg:my-2 lg:text-[20.5px] lg:leading-[36px]">
+            <p className="font-LGC text-primary md:my-2 md:text-[11px] md:leading-[20.35px] lg:my-2 lg:text-[21px] lg:leading-[36px]">
               Many parents think their child will outgrow the delay, and
               wishlist it's possible ,in many situation it's not the case.And
               the longer you wait,the more significant the impact on your
               child's developement
             </p>
-            <p className="text-center font-LGCB text-primary md:mt-5 md:text-[12px] lg:mt-5 lg:text-[20.5px]">
+            <p className="text-center font-LGCB text-primary md:mt-5 md:text-[12px] lg:mt-5 lg:text-[21px]">
               Early intervention is so powerful and now it's super affordable
               tool
             </p>
@@ -166,7 +166,7 @@ const ToddlerTalkSection: React.FC = () => {
             <p className="py-5 font-LGC text-[18px] leading-[31.29px]  text-primary">
               You just want the best for your child so you're feeling frustrated
               over the lengthy waitlits of public services but funding private
-              speech therapy isn't an option for your right now.
+              speech therapy isn't an option for you right now.
             </p>
             <p className="font-LGC text-[18px] leading-[31.29px] text-primary">
               Many parents think their child will outgrow the delay, and

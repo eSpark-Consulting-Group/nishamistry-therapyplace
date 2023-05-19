@@ -19,7 +19,7 @@ const FAQs = () => {
           <h1 className="mb-2 font-LGC text-7xl text-primary sm:text-[40px] md:text-[49px] lg:text-[114px]">
             FAQs
           </h1>
-          <h4 className="text-primary sm:text-[10px] md:text-[11px] lg:text-[20px]">
+          <h4 className="font-LGC text-primary sm:px-0.5 sm:text-[10px] sm:tracking-[1px] md:px-1 md:text-[11px] lg:px-2 lg:text-[20px] lg:tracking-[2px]">
             FREQUENTLY ASKED QUESTIONS
           </h4>
         </div>
@@ -60,7 +60,7 @@ const FAQs = () => {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel static className=" pb-4 lg:pb-6">
+                      <Disclosure.Panel static className="pb-4 lg:pb-6">
                         {/* <BlockContent
                           blocks={item.answer}
                           projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}

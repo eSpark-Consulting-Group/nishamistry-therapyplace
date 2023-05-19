@@ -6,7 +6,7 @@ const FaqsDisclosure = ({ faqsPageData }) => {
     <>
       <section className="bg-mint">
         <div className="mx-auto w-[90%] py-8 lg:w-[60%]">
-          <h1 className="mb-5 font-LGC font-LGCB text-7xl">FAQs</h1>
+          <h1 className="mb-5 font-LGC  text-7xl">FAQ</h1>
           <h4 className="mb-1 leading-loose tracking-wider">
             FREQUENTLY ASKED QUESTIONS
           </h4>
@@ -23,7 +23,7 @@ const FaqsDisclosure = ({ faqsPageData }) => {
               <Disclosure key={item._id} className="">
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-sm text-left border-t-4 border-navy font-LGCB text-navy first:mt-0 last:border-b-4 last:pb-4 focus:outline-none focus-visible:ring focus-visible:ring-navy focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full items-center justify-between border-t-4 border-navy px-4 py-4 text-left font-LGCB text-sm text-navy first:mt-0 last:border-b-4 last:pb-4 focus:outline-none focus-visible:ring focus-visible:ring-navy focus-visible:ring-opacity-75">
                       <span>{item.question}</span>
                       {open ? (
                         <svg
@@ -32,7 +32,7 @@ const FaqsDisclosure = ({ faqsPageData }) => {
                           viewBox="0 0 24 24"
                           strokeWidth={1.5}
                           stroke="currentColor"
-                          className="w-5 h-5"
+                          className="h-5 w-5"
                         >
                           <path
                             strokeLinecap="round"
@@ -47,7 +47,7 @@ const FaqsDisclosure = ({ faqsPageData }) => {
                           viewBox="0 0 24 24"
                           strokeWidth={1.5}
                           stroke="currentColor"
-                          className="w-5 h-5"
+                          className="h-5 w-5"
                         >
                           <path
                             strokeLinecap="round"

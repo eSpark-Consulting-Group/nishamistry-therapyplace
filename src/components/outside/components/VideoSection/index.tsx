@@ -15,9 +15,11 @@ const VideoSection: React.FC = () => {
   ]
 
   return (
-    <div className="relative flex  flex-col items-center justify-center 
-    lg:pb-[150px] md:pb-[100px] sm:pb-[100px] 
-    sm:w-[560px] md:w-[611px] lg:w-[1184px] lg:mt-6 md:mt-16 sm:mt-8">
+    <div
+      className="relative flex  flex-col items-center justify-center 
+    sm:mt-8 sm:w-[560px] sm:pb-[100px] 
+    md:mt-16 md:w-[611px] md:pb-[100px] lg:mt-6 lg:w-[1184px] lg:pb-[150px]"
+    >
       {/* video monitor */}
       <div className=" relative flex flex-col items-center justify-center rounded-[67px] bg-mint  sm:h-[399px] sm:w-[560px] md:h-[435px] md:w-[611px] lg:h-[842px]  lg:w-[1184px]  ">
         <img
@@ -44,26 +46,26 @@ const VideoSection: React.FC = () => {
           Your browser does not support the video tag.{' '}
         </video>
       </div>
-      
+
       {/* help yor toddle btn */}
       <div
         className="absolute 
-        lg:bottom-[35px]
-         md:bottom-[37px]
-          sm:bottom-[38px] 
-        flex items-center justify-center 
-          sm:h-[83px] 
-          sm:w-[220px] 
-          md:h-[90px]
-           md:w-[240px] lg:h-[175px]
+        flex
+         items-center
+          justify-center 
+        sm:bottom-[38px] sm:h-[83px] sm:w-[220px] 
+          md:bottom-[37px] 
+          md:h-[90px] 
+          md:w-[240px]
+           lg:bottom-[35px] lg:h-[175px]
            lg:w-[500px]
            "
       >
         <img
           className="absolute 
-          lg:h-[175px] lg:w-[466px]
-          md:h-[90px] md:w-[240px]
           sm:h-[83px] sm:w-[220px]
+          md:h-[90px] md:w-[240px]
+          lg:h-[175px] lg:w-[466px]
 
            "
           src="../../svg/WEB-BUTTON.svg"
@@ -88,40 +90,40 @@ const VideoSection: React.FC = () => {
           <span
             className="font-LGC
         uppercase 
-         lg:leading-[35px]
-         md:leading-[30px]
+         text-primary
+         sm:text-[15px]
          sm:leading-[24.36px]
-         text-primary	
-         	 sm:text-[15px]
-            md:text-[16px] lg:text-[32px]"
+         md:text-[16px]	
+         	 md:leading-[30px]
+            lg:text-[32px] lg:leading-[35px]"
           >
             ‘HELP YOUR TODDLER TALK!’
           </span>
           <span
             className="
         p-0 font-LGC 
-        lg:leading-[38px]
-        md:leading-[10px]
-        sm:leading-[15px]
-         text-lightOrange
+        text-lightOrange
         sm:text-[18px]
-         md:text-[19px] lg:text-[38px]"
+        sm:leading-[15px]
+         md:text-[19px]
+        md:leading-[10px]
+         lg:text-[38px] lg:leading-[38px]"
           >
             £89.99
           </span>
           <button
             className=" bg-primary
          font-LGC 
-         text-white lg:h-[34px] lg:w-[212px]
-       md:mt-[5px]
-       sm:mt-[4px]
-        md:w-[109px]
+         text-white sm:mt-[4px] sm:h-[16px]
+       sm:w-[100px]
+       sm:text-[7px]
+        md:mt-[5px]
         md:h-[17px]
-         sm:w-[100px]
-         sm:h-[16px]
-             lg:text-[16px]
-             md:text-[9px]
-             sm:text-[7px]"
+         md:w-[109px]
+         md:text-[9px]
+             lg:h-[34px]
+             lg:w-[212px]
+             lg:text-[16px]"
           >
             BUY IT NOW
           </button>

@@ -27,14 +27,14 @@ const SectionThree: React.FC = () => {
 
       <div
         className="flex justify-end font-LGCB uppercase text-primary 
-        sm:text-[28px] md:text-[38px] lg:text-[59px]"
+        sm:text-[28px] md:text-[34px] lg:text-[59px]"
       >
         who is it for?
       </div>
 
       <div className="flex w-[100%] flex-col items-center justify-center ">
-        <div className="flex font-LGC uppercase text-primary sm:my-4 sm:w-[88%] sm:text-[16.5px] md:w-[90%] md:text-[20px] lg:my-8 lg:w-[94%] lg:text-[35px]">
-          this programme is for youif you're a parent of a child aged 4 and
+        <div className="flex font-LGC uppercase text-primary sm:my-4 sm:w-[88%] sm:text-[17px] md:w-[90%] md:text-[21px] lg:my-8 lg:w-[94%] lg:text-[37px]">
+          this programme is for you if you're a parent of a child aged 4 and
           under who:
         </div>
       </div>
