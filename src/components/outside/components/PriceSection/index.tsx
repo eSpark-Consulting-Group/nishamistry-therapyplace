@@ -1,13 +1,4 @@
 import React from 'react'
-import Box from '@mui/material/Box'
-import Stack from '@mui/material/Stack'
-import Button from '@mui/material/Button'
-import Container from '@mui/material/Container'
-import Typography from '@mui/material/Typography'
-import GREEN_STAR from '../../../../../public/svg/GREEN STAR.svg'
-import ORANGE_STAR from '../../../../../public/svg/ORANGE STAR.svg'
-import NAVY_STAR from '../../../../../public/svg/NAVY STAR.svg'
-import Image from 'next/image'
 
 const PriceSection: React.FC = () => {
   return (
@@ -93,7 +84,6 @@ const PriceSection: React.FC = () => {
      sm:text-[17px]
       md:text-[21px] lg:text-[50px] "
           >
-            {' '}
             All of this for the half the price of a single therapy session!
           </h4>
         </div>
@@ -101,28 +91,16 @@ const PriceSection: React.FC = () => {
       <div className="  my-24 mt-[10px] flex flex-col  items-center justify-center lg:h-[600px] lg:w-[1200px]">
         {/* <div className="bg-no-repeat bg-center bg-cover w-600 h-300 p-20"  Style="background-image: url('./public/svg/WEB-ORANGE BUTTON.svg')"> */}
         <div
-          className="  bg-no-repeat  sm:h-[140px] sm:w-[368px]
-      md:h-[165px] md:w-[437px]
-      lg:h-[408px] lg:w-[1029px]
-
-        "
+          className="bg-no-repeat sm:h-[160px] sm:w-[388px] md:h-[185px] md:w-[457px] lg:h-[428px] lg:w-[1049px]"
           style={{
             backgroundImage: `url("../../svg/WEB-ORANGE BUTTON.svg")`,
           }}
         >
-          <div className="z-10 flex flex-col items-center justify-center sm:h-[140px] md:h-[165px] lg:h-[408px] ">
-            <span
-              className="font-LGCB text-navy sm:text-[19px]
-       md:text-[23px]
-       lg:text-[50px] "
-            >
+          <div className="z-10 flex flex-col items-center justify-center sm:h-[160px] md:h-[215px] lg:h-[428px] ">
+            <span className="ml-[2px] font-LGCB text-navy sm:text-[21px] md:text-[25px] lg:text-[59px] ">
               ACCESS TO THE FULL PROGRAMME
             </span>
-            <span
-              className="font-LGC text-lightyellow 
-      sm:text-[30px] sm:leading-[40.13px] md:text-[36px] 
-      md:leading-[48.26px] lg:text-[84px] lg:leading-[112.57px]"
-            >
+            <span className="text-center font-LGC text-lightyellow sm:text-[30px] sm:leading-[40.13px] md:text-[36px] md:leading-[48.26px] lg:text-[84px] lg:leading-[112.57px]">
               £89.99
             </span>
           </div>

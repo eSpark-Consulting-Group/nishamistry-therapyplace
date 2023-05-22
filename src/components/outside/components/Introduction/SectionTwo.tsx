@@ -28,7 +28,7 @@ const SectionTwo: React.FC = () => {
       <div className="flex w-[100%] flex-col items-center justify-center ">
         <div
           className="flex font-LGCB text-primary 
-        sm:text-[28px] md:text-[38px] lg:text-[59px]"
+        sm:text-[28px] md:text-[34px] lg:text-[59px]"
         >
           WHAT DOES THE PROGRAMME INCLUDE?
         </div>
@@ -57,9 +57,9 @@ const SectionTwo: React.FC = () => {
           <img
             src="../../svg/ORANGE STAR.svg"
             alt="Image"
-            className="mr-2 ml-3 sm:my-1.5  sm:h-[11px] sm:w-[12px] md:my-2  md:h-[14px] md:w-[14px] lg:my-4 lg:mr-3.5 lg:ml-0  lg:h-[24px] lg:w-[25px]"
+            className="mr-2 ml-3 sm:my-1 sm:h-[11px] sm:w-[12px] md:my-1.5 md:h-[14px] md:w-[14px] lg:my-2.5 lg:mr-3.5 lg:ml-0 lg:h-[24px] lg:w-[25px]"
           />
-          <div className="font-LGC text-[34px] text-primary sm:text-[17px] md:text-[20px] lg:text-[36px]">
+          <div className="font-LGC text-primary  sm:text-[17px] sm:leading-[22.72px] md:text-[20px] md:leading-[27.48px] lg:text-[36px] lg:leading-[48px]">
             {point}
           </div>
         </div>
