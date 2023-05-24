@@ -21,8 +21,8 @@ const SectionOne: React.FC = () => {
                 I'M NISHA, A SPEECH AND LANGUAGE THERAPIST
               </div>
               <div className="font-LGC text-white sm:my-3 sm:text-[12px] sm:leading-[16.04px] md:my-4 md:text-[15px] md:leading-[19.41px] lg:my-6 lg:text-[26px] lg:leading-[33.89px]">
-                I've used all my experience and knowledge to create this program
-                for you. but why?
+                I've used all my extensive experience to create this programme
+                for you. But why?
               </div>
               {points.map((point) => (
                 <div className="font-LGC text-white sm:my-3 sm:text-[12px] sm:leading-[16.04px] md:my-4 md:text-[15px] md:leading-[19.41px] lg:my-6 lg:text-[26px] lg:leading-[33.89px]">

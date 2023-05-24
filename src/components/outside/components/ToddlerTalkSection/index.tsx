@@ -5,8 +5,8 @@ const ToddlerTalkSection: React.FC = () => {
   const childConcerned = [
     'Might be delayed with their speech',
     'Are not interacting with you',
-    'Are not develping as fast as children the same age',
-    'Are becoming increasingly frustrated and losing self-confidence beacuse of their communication difficulties?',
+    'Are not developing as fast as children the same age',
+    'Are becoming increasingly frustrated and losing self-confidence because of their communication difficulties?',
   ]
   return (
     <>
@@ -70,18 +70,18 @@ const ToddlerTalkSection: React.FC = () => {
             </p>
             <p className="font-LGC text-primary md:my-5  md:text-[11px] md:leading-[20.35px] lg:my-5 lg:text-[21px] lg:leading-[36px]">
               You just want the best for your child so you're feeling frustrated
-              over the lengthy waitlits of public services but funding private
+              over the lengthy waitlists of public services but funding private
               speech therapy isn't an option for you right now.
             </p>
             <p className="font-LGC text-primary md:my-2 md:text-[11px] md:leading-[20.35px] lg:my-2 lg:text-[21px] lg:leading-[36px]">
               Many parents think their child will outgrow the delay, and
-              wishlist it's possible ,in many situation it's not the case.And
-              the longer you wait,the more significant the impact on your
-              child's developement
+              wishlist it's possible, in many situation it's not the case.And
+              the longer you wait, the more significant the impact on your
+              child's developement.
             </p>
             <p className="text-center font-LGCB text-primary md:mt-5 md:text-[12px] lg:mt-5 lg:text-[21px]">
               Early intervention is so powerful and now it's super affordable
-              tool
+              too!
             </p>
           </div>
 
@@ -165,18 +165,18 @@ const ToddlerTalkSection: React.FC = () => {
             </p>
             <p className="py-5 font-LGC text-[18px] leading-[31.29px]  text-primary">
               You just want the best for your child so you're feeling frustrated
-              over the lengthy waitlits of public services but funding private
+              over the lengthy waitlists of public services but funding private
               speech therapy isn't an option for you right now.
             </p>
             <p className="font-LGC text-[18px] leading-[31.29px] text-primary">
               Many parents think their child will outgrow the delay, and
-              wishlist it's possible ,in many situation it's not the case.And
+              wishlist it's possible, in many situation it's not the case.And
               the longer ypu wait,the more significant the impact on your
-              child's developement
+              child's developement.
             </p>
             <p className="my-2 font-LGC text-[18px]  text-primary ">
               Early intervention is so powerful and now it's super affordable
-              tool
+              too!
             </p>
           </div>
         </div>
