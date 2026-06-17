@@ -7,7 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.14.0",
     "@emotion/style": "^0.8.0",
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^2.2.10",
