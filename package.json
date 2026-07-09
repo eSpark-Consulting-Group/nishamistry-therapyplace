@@ -36,7 +36,7 @@
     "next": "latest",
     "next-sanity": "^0.5.2",
     "nodemailer": "^8.0.9",
-    "postmark": "^4.0.7",
+    "postmark": "^5.0.0",
     "react": "^19.2.7",
     "react-calendly": "^4.0.1",
     "react-dom": "^19.2.7",
