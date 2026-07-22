@@ -34,7 +34,7 @@
     "groq": "^2.29.3",
     "micro": "^9.3.4",
     "next": "latest",
-    "next-sanity": "^0.5.2",
+    "next-sanity": "^13.1.5",
     "nodemailer": "^8.0.9",
     "postmark": "^4.0.7",
     "react": "^19.2.7",
