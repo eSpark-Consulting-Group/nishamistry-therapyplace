@@ -31,7 +31,7 @@
     "draftjs-to-html": "^0.9.1",
     "embla-carousel-react": "^7.1.0",
     "eslint-config-next": "^13.3.2",
-    "groq": "^2.29.3",
+    "groq": "^6.10.1",
     "micro": "^9.3.4",
     "next": "latest",
     "next-sanity": "^0.5.2",
