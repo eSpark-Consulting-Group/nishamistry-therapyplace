@@ -39,7 +39,7 @@
     "postmark": "^4.0.7",
     "react": "^19.2.7",
     "react-calendly": "^4.0.1",
-    "react-dom": "^19.2.7",
+    "react-dom": "^19.3.0",
     "react-draft-wysiwyg": "^1.15.0",
     "react-google-recaptcha": "^2.1.0",
     "react-hook-form": "^7.79.0",
