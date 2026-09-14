@@ -35,7 +35,7 @@
     "micro": "^9.3.4",
     "next": "latest",
     "next-sanity": "^0.5.2",
-    "nodemailer": "^8.0.9",
+    "nodemailer": "^10.0.7",
     "postmark": "^4.0.7",
     "react": "^19.2.7",
     "react-calendly": "^4.0.1",
