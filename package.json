@@ -20,7 +20,7 @@
     "@sanity/image-url": "^1.0.1",
     "@sanity/webhook": "^1.0.2",
     "@sendgrid/mail": "^8.1.6",
-    "@stripe/stripe-js": "^1.32.0",
+    "@stripe/stripe-js": "^9.16.0",
     "@supabase/supabase-js": "^1.35.3",
     "aws-sdk": "^2.1225.0",
     "axios": "^1.17.0",
